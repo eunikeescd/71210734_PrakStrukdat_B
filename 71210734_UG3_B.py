@@ -29,5 +29,6 @@ print(dikt)
 cari = int(input("Data Ditampilkan:"))
 if cari in dikt:
     print('Data ditemukan')
+    print('Data yang ditemukan bernilai:',dikt.get(cari))
 else:
     print('Data tidak ditemukan')
